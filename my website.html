@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UND3AD programmer</title>
+        <meta name="description" content="Page description here">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style type="text/css">
+            Body {
+                color: orange;
+                }
+        </style>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("name");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </head>
+
+    <body>
+        <p><h1>Table of contents</h1></p>
+        <ul>
+            <li><a href="#unorderedlist">Unordered list </a><br></li>
+            <li><a href="#orderedlist">Ordered list </a><br></li>
+            <li><a href="#imagegallery">Image gallery </a><br></li>
+            <li><a href="#videogallery">Video gallery </a><br></li>
+        </ul>
+
+        <p>This is my first website with html...</p>
+        <p>The function will uppercase the entered texts!</p>
+        Enter your name : <input type="text", id="name" onchange="myFunction()">
+        <p>This is line 1. <br> This is line 2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is line 3.</p>
+        <h1>This is header 1.</h1>
+        <h2>This is header 2</h2>
+        <h3>This is header 3</h3>
+        <h4><font face="arial" size="22" color="blue"> This is header 4</font></h4>
+        <p><strong>Bold text here</strong> <br>
+            <em>Italic text</em> <br>
+            <u>Underlined text</u> <br>
+            <strike>Strike text</strike> <br>
+            <em><strong><u>Bold, Italic and Underlined text.</u></strong></em>
+        </p>
+
+        <h3> <a id="unorderedlist"></a> This is unordered list</h3>
+        <ul>
+            <li>Football</li>
+            <li>Cricker</li>
+            <li>Basketball</li>
+            <li>Hockey</li>
+            <li>Soccer</li>
+        </ul>
+
+        <h3> <a id="orderedlist"></a> This is order list</h3>
+        <ol>
+            <li>Bangladesh</li>
+            <li>Pakistan</li>
+            <li>Idian</li>
+            <li>China</li>
+            <li>America</li>
+        </ol>
+
+        <h2> <a id="imagegallery"></a> Image gallery</h2>
+        <a href="http://www.facebook.com"><img src="image1.jpg" width="200" height="320"></a>
+        <a href="http://www.instagram.com"><img src="image2.jpg" width="200" height="320"></a>
+        <a href="http://www.google.com"><img src="image3.jpg" width="200" height="320"></a>
+        <img src="image4.jpg" width="200" height="320">
+        <img src="https://i.ibb.co/Dbb9KmD/mukul.png" width="320" height="320">
+
+        <h2> <a id="videogallery"></a> Video gallery</h2>
+        <video src="video.MP4" width="600" controls>
+            your browser dosen't support video tag!
+        </video>
+
+        <p>
+            <a href="http://www.facebook.com" target="_blank">Facebook</a> <br>
+            <a href="http://www.google.com">Google</a> <br>
+            <a href="http://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+        
+
+    </body>
+</html>
