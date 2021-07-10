@@ -7,3 +7,19 @@ Body  {
     font-family: Georgia;
     color: red;
   }
+
+  .blueboldtext{
+    font-size: small;
+    color: blue;
+    font-weight: bold;
+  }
+
+  .largegreentext{
+    font-size: large;
+    color: green;
+    font-weight: bold;
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
