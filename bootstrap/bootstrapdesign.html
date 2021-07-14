@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http:/maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Bootstrap table</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info">
+                    <td>John</td>
+                    <td>Smith</td>
+                    <td>80</td>
+                </tr>
+                <tr class="success">
+                    <td>Ted</td>
+                    <td>Crow</td>
+                    <td>90</td>
+                </tr>
+                <tr class="danger">
+                    <td>Molly</td>
+                    <td>Doe</td>
+                    <td>85</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Heading</h1>
+            <p>This is a line</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="well well-sm">Small well</div>
+        <div class="well"> Normal well</div>
+        <div class="well well-lg"> Large well</div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-success fade in">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            <strong>Success!</strong>
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong>
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong>
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong>
+        </div>
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-default btn-lg">Default</button>
+        <button type="button" class="btn btn-info btn-block btn-sm">Info</button>
+        <button type="button" class="btn btn-danger disabled">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+    
+    <div class="container">
+        <div class="btn-group-vertical btn-group-sm">
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+    </div>
+
+    
+    <div class="btn-group btn-group-justified">
+        <a href="#" class="btn btn-primary">Home</a>
+        <a href="#" class="btn btn-primary">Company</a>
+        <a href="#" class="btn btn-primary">Contact</a>
+    </div>
+
+    <div class="btn-group btn-group-justified">
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary">Company</a>
+        </div>
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary">Home</a>
+        </div>
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Glyphicons</h2>
+
+        <p> Envelope: <span class="glyphicon glyphicon-envelope"></span></p>
+        <p> Search: <span class="glyphicon glyphicon-search"></span></p>
+        <p> Heart: <span class="glyphicon glyphicon-heart"></span></p>
+        <p> Star: <span class="glyphicon glyphicon-star-empty"></span></p>
+
+        <button type="button" class="btn btn-warning">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+
+        <p>Print: <span class="glyphicon glyphicon-print"></span></p>
+
+        <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-print"></span> Print
+        </a>
+    </div>
+   
+    <div class="container">
+        <a href="#"> Member <span class="badge">8</span></a><br>
+        <a href="#"> Message <span class="badge">2</span></a>
+
+        <hr>
+        <button type="button" class="btn btn-primary">Primary <span class="badge">20</span></button>
+        <hr>
+        <h1>Heading <span class="label label-primary">New</span></h1>
+        <h3>Heading <span class="label label-info">New</span></h3>
+
+        <hr>
+        <span class="label label-default">Default</span>
+        <span class="label label-primary">Primary</span>
+        <span class="label label-success">Success</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warning</span>
+        <span class="label label-danger">Danger</span>
+        
+    </div>
+    <div class="container">
+        <h3>Progress bar</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 80%;">
+            80%
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h4>Pagination</h4>
+        <p>Page content...</p>
+
+        <ul class="pagination pagination-lg">
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li class="disabled"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+        <hr>
+
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Member</a></li>
+            <li class="disabled"><a href="#">Content</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Community</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <ul class="pager">
+            <li class="previous"><a href="#">Previous</a></li>
+            <li class="next"><a href="#">Next</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h4>List group</h4>
+
+        <ul class="list-group">
+            <li class="list-group-item">Item 1 <span class="badge">10</span></li>
+            <li class="list-group-item">Item 2 <span class="badge">15</span></li>
+            <li class="list-group-item">Item 3</li>
+        </ul>
+
+        <hr>
+
+        <ul class="list-group">
+            <a href="#" class="list-group-item active">Item 1</a>
+            <a href="#" class="list-group-item list-group-item-danger">Item 2</a>
+            <a href="#" class="list-group-item disabled">Item 3</a>
+        </ul>
+
+        <hr>
+
+        <ul class="list-group">
+            <a href="#" class="list-group-item list-group-item-success">
+                <h4 class="list-group-item-heading">Item 1 heading</h4>
+                <p class="list-group-item-text">List item text</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-warning">
+                <h4 class="list-group-item-heading">Item 2 heading</h4>
+                <p class="list-group-item-text">List item text</p>
+            </a>
+        </ul>
+
+    </div>
+
+</body>
+</html>
