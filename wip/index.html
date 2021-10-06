@@ -1,0 +1,34 @@
+<html>
+<head>
+
+</head>
+<body>
+<h2> Please fill out this form.</h2>
+View all responses  <a href="information.php"><img src="form.png" height="20px" width="20px"></a><br><br>
+	<div >
+	<form name="registration" action="save.php" method="post">
+		Student ID : <br>
+		<input type="text" name="sid" placeholder="Type your ID" required> <br> <br>
+		Name : <br> 
+		<input type="text" name="name" placeholder="Type your name" required> <br> <br>
+		E-mail : <br>
+		<input type="text" name="email" placeholder="Type your E-mail" required> <br> <br>
+		Phone-No : <br>
+		<input type="text" name="phone" placeholder="Type your Phone-No" required> <br> <br>
+		City : <br>
+		<input type="text" name="city" placeholder="Type your city" required> <br> <br>
+		Vaccination status: 
+		<select name="status" required>
+		<option selected disabled> Select an option</option>
+		<option value="First dose complete"> First dose complete</option>
+		<option value="Both dose complete"> Both dose complete</option>
+		<option value="Not Vaccinated"> Not Vaccinated</option>
+		</select>
+		<br> <br>
+		<input type="checkbox" name="check" value="accepted" required>
+		The provided information is correct. <br><br>
+		<input type="submit" name="sub" value="submit"> 
+	</form>
+	</div>
+</body>
+</html>
